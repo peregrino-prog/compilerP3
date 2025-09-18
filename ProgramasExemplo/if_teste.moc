@@ -1,0 +1,11 @@
+int a, b, s;
+void main(void) {
+  a = read();
+  b = read();
+  if (a < b) {
+    s = a;
+  } else {
+    s = b;
+  }
+  write(s);
+}

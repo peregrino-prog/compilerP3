@@ -1,0 +1,11 @@
+int x;
+int y;
+int soma;
+
+void main(void) {
+    x = read();
+    y = read();
+    soma = x + y;
+    write(soma);
+}
+

@@ -1,0 +1,7 @@
+int a, b, s;
+void main(void) {
+  a = read();
+  b = read();
+  s = a + b;
+  write(s);
+}

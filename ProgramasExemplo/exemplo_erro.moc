@@ -1,0 +1,7 @@
+int 2a, b, s;   /* erro léxico: variável não pode começar por número */
+void main(void) {
+  a = read();
+  b = read();
+  s = a + ;     /* erro sintático: falta operando */
+  write(s);
+}

@@ -1,0 +1,8 @@
+int a;
+void main(void) {
+  a = 0;
+  while (a < 5) {
+    write(a);
+    a = a + 1;
+  }
+}
