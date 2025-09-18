@@ -1,6 +1,6 @@
 ==============================
- COMPILADOR MOCC – e-fólio Global
-==============================
+ COMPILADOR P3
+=================
 
 Autor: Ricardo Farinha Gomes da Silva
 
@@ -13,8 +13,8 @@ O compilador foi implementado em **Java** com recurso à ferramenta **ANTLR v4.1
 Realiza a análise léxica, sintática e a geração de código intermédio (**TAC – Three Address Code**), 
 suportando variáveis, expressões aritméticas, leitura, escrita e estruturas de controlo (`if`, `while`, `for`).  
 
-O destino final é a geração de **código Assembly P3**, totalmente compatível com o simulador **[P3JS](https://github.com/goncalobaltzar/p3js)**, 
-um assembler e simulador open source para o processador P3 que corre diretamente no browser ou em Node.js.
+O destino final é a geração de **código Assembly P3**, totalmente compatível com um simulador, por exemplo **[P3JS](https://github.com/goncalobaltzar/p3js)**, 
+que é um assembler e simulador open source para o processador P3 que corre diretamente no browser ou em Node.js.
 
 ## Principais Funcionalidades
 - Análise léxica e sintática com ANTLR.
